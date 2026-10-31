@@ -1,6 +1,6 @@
 /* Service worker: dopo la prima visita la natività si apre anche senza internet (il multiplayer però ha bisogno della rete).
    Dopo ogni aggiornamento del sito cambia il numero di CACHE qui sotto, così i visori scaricano i file nuovi. */
-const CACHE = "nativita-v3";
+const CACHE = "nativita-v4";
 const ASSETS = ["./", "index.html", "net.js", "logo.png", "guida.png",
   "models/nativita.glb", "models/cow_idle.glb", "art/magi.jpg", "art/famiglia.jpg", "art/stella.jpg", "art/adorazione.jpg", "audio/canzone.mp3",
   "vendor/trystero.js", "vendor/qr.js", "vendor/three/three.module.js", "vendor/three/three.core.js",
